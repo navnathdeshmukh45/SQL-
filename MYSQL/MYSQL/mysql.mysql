@@ -1,0 +1,14 @@
+-- create database 
+create database darling;
+use darling; -- using datbase 
+--  table create
+create table student(
+id int,
+name varchar(20));
+-- show database  
+show databases;
+--  describe database
+describe student;
+	--  insert data into table 
+insert into student values(123,"ram"),(12345,"navnath");
+select* from  student where id<10000;

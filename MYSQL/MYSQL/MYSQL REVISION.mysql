@@ -1,0 +1,9 @@
+create database darling;
+use darling;
+create table student(
+id int,
+name varchar(20));
+show databases;
+describe student;
+insert into student values(123,"ram"),(12345,"navnath");
+select* from  student where id<10000;
