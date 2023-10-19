@@ -1,0 +1,6 @@
+create table s1
+(id int ,
+name varchar(34),
+city varchar(45),
+age int,
+constraint age_check check(age >=18 and  city="nanded"));
